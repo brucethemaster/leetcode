@@ -4,9 +4,6 @@ function findIntersection(strArr) {
   let strArr1 = strArr[0].split(/, /);
   let strArr2 = strArr[1].split(/, /);
 
-  console.log(strArr1);
-  console.log(strArr2);
-
   let result = [];
 
   strArr1.forEach(element => {
